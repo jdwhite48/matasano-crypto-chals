@@ -1,0 +1,14 @@
+[package]
+name = "mcc-set1"
+version = "0.0.1"
+
+[lib]
+name = "set1"
+path = "lib.rs"
+
+[dependencies]
+base64 = "0.13.0"
+hex = "0.4.3"
+
+[dev-dependencies]
+criterion = "0.4.0"
